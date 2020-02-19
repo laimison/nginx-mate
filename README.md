@@ -20,8 +20,10 @@ options="proxy_set_header Host $host; line2; line3;"
 Image can be pulled and used
 
 ```
-docker pull laimison/nginx-mate:v1
+docker pull laimison/nginx-mate:latest
 ```
+
+To get more info https://hub.docker.com/repository/docker/laimison/nginx-mate
 
 ## Steps How This Image was Built and Pushed to Docker Hub Registry
 
