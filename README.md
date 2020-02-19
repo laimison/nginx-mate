@@ -27,20 +27,26 @@ To get more info https://hub.docker.com/repository/docker/laimison/nginx-mate
 
 ## Steps How This Image was Built and Pushed to Docker Hub Registry
 
+Login
+
 ```
 docker login
-
-docker image ls | grep mate
-
-docker tag nginx-mate_nginx-mate:latest laimison/nginx-mate:v1
-
-docker push laimison/nginx-mate:v1
 ```
 
-or create here
+Find your local image
+
+```
+docker image ls | grep mate
+```
+
+Create repository through
 
 https://hub.docker.com/repository/create
 
+Tag and push it
+
 ```
+docker tag nginx-mate_nginx-mate:latest laimison/nginx-mate:v1
+
 docker push laimison/nginx-mate:v1
 ```
