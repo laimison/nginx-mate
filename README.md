@@ -2,7 +2,9 @@
 
 This is an image to quickly pass the traffic through this Docker container to reach another service
 
-These are environment variables that should be used in Kubernetes, Docker Compose, etc.
+Here are environment variables that should be used in Kubernetes, Docker Compose, etc.
+
+https://hub.docker.com/repository/docker/laimison/nginx-mate
 
 ```
 server_name=test.example.com
