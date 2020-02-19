@@ -23,9 +23,7 @@ Image can be pulled and used
 docker pull laimison/nginx-mate:latest
 ```
 
-To get more info https://hub.docker.com/repository/docker/laimison/nginx-mate
-
-## Building Image
+## Build Image
 
 Login
 
