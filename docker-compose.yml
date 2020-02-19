@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  nginx-mate:
+    container_name: nginx
+    hostname: nginx
+    build: .
+    environment:
+      - server_name=test.example.com
+      - proxy_pass=http://apache/
+    ports:
+      - "80:80"
+  apache:
+    container_name: apache
+    hostname: apache
+    image: httpd
+    ports:
+      - "8000:80"
