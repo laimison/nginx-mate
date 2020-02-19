@@ -1,6 +1,7 @@
 # nginx-mate
 
-### Push Image to Docker Hub
+
+## Push Image to Docker Hub
 
 ```
 docker login
@@ -20,7 +21,7 @@ https://hub.docker.com/repository/create
 docker push laimison/nginx-mate:v1
 ```
 
-### Pull Global Image
+## Pull Global Image
 
 ```
 docker pull laimison/nginx-mate:v1
